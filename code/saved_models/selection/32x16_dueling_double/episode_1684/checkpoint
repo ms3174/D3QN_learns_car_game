@@ -1,0 +1,2 @@
+model_checkpoint_path: "target_network_weights"
+all_model_checkpoint_paths: "target_network_weights"
