@@ -28,11 +28,11 @@ Note: If globals.py does not define correct project path, change this manually t
 
 To start training of an agent (fixed at 32x16 neurons):<br />
 1.) Choose the desired properties in main.py before "Window" class<br />
-2.) Comment out "screen.test_run(dir_to_weights, text_to_display, epsilon_greedy_ON)" in "if __name__" loop<br />
-3.) Uncomment "screen.train_run(num_training_eps)" in "if __name__" loop<br />
+2.) Comment out "screen.test_run(dir_to_weights, text_to_display, epsilon_greedy_ON)" in "if \_\_name\_\_" loop<br />
+3.) Uncomment "screen.train_run(num_training_eps)" in "if \_\_name\_\_" loop<br />
 
 The agent trainer will train over the desired training period, and save trained weights every 50 episodes into "./saved_models/cache/" including the performance pickle file.
 
 #### Running game with user input
 
-To "play" the game by hand, uncomment "screen.user_baseline_run()" in "if __name__" loop
+To "play" the game by hand, uncomment "screen.user_baseline_run()" in "if \_\_name\_\_" loop
